@@ -393,7 +393,7 @@ module.exports = (robot) ->
     resultStr = ("#{k}さん #{v * game.rules.ten * 100}" for k, v of game.total).join("、")
     totalStr = ("#{k}さん #{v}" for k, v of game.total).join("、")
     messages = []
-    messages.push "おつかれさまでした。"
+    messages.push "おつかれさまでした:clap:"
     messages.push "半荘#{game.hanchans.length}回を#{game.rules.ten}で計算："
     messages.push "　#{resultStr}"
     messages.push "---"

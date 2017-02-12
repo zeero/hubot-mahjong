@@ -1,0 +1,23 @@
+{
+  "name": "hubot-mahjong",
+  "version": "0.0.1",
+  "description": "Hubot script for mahjong. Show points, Record game.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeero/hubot-mahjong.git"
+  },
+  "keywords": [
+    "hubot",
+    "mahjong"
+  ],
+  "author": "zeero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeero/hubot-mahjong/issues"
+  },
+  "homepage": "https://github.com/zeero/hubot-mahjong#readme"
+}

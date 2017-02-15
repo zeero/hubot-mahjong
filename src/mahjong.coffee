@@ -2,6 +2,7 @@
 #   麻雀の点数表示や得点を記録します。
 #
 # Commands:
+#   mj - ヘルプ表示。（help mj のエイリアス）
 #   mj <符> <翻> - 符数、翻数に応じた点数を表示します。
 #   mj start <名前>... - 得点の記録を開始します。参加メンバの名前をスペース区切りで入力します。
 #   mj rule - ルールを表示します。
@@ -58,6 +59,14 @@ module.exports = (robot) ->
       for member, point of hanchan
         total[member] += point
     return total
+
+
+  # ヘルプ表示
+  robot.hear /^mj$/i, (res) ->
+    robot_name = robot.alias or robot.name
+    message = res.message
+    message.text = "#{robot_name} help mj"
+    robot.receive message
 
 
   # 点数計算

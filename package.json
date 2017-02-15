@@ -1,6 +1,6 @@
 {
   "name": "hubot-mahjong",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Hubot script for mahjong. Calc points, Record game.",
   "main": "index.coffee",
   "scripts": {
